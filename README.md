@@ -4,7 +4,7 @@ A simple script that will generate httpsig headers for your request.
 
 ## Usage
 
-Run `yarn` to install dependencies, then import this module into an interactive node instance. It exports the following functions: `generateTestKeys` and `generateSigHeaders`
+Run `yarn` to install dependencies, then import the `signatureModule.js` module into an interactive node instance. It exports the following functions: `generateTestKeys` and `generateSigHeaders`
 
 * `generateTestKeys()`: Takes no parameters. Use this to generate the private key that will be used to create the signature and the public key that will be passed to a server to verify it.
   * Returns two JWKs like so: `{ privateKey, publicKey }`
